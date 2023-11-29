@@ -1,0 +1,55 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.containor{
+ font-size: 2.5vw;
+}
+.heading{
+  
+
+}
+
+
+.lan-btn{
+ 
+
+}
+
+.img{
+   width: 88vw; 
+   height: 50vw;
+   display: flex;
+   align-self: center;
+   justify-content: center;
+}
+.img img{
+    width: 88vw;
+}
+.img-4{
+    width: 22vw; 
+    display: flex;
+    align-self: center;
+    justify-content: center;
+ }
+ .img-4 img{
+    width: 22vw; 
+    height: 15wh;
+
+ }
+
+ .para{
+    width: 88vw;  
+    display: flex;
+    align-self: center;
+    justify-content: center;
+ }
+ .para{
+    width: 50vw;
+ }
+
+ .lst-btn{
+    display: flex;
+    width: 50vw;
+
+ } */

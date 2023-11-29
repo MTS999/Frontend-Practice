@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containor {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.heading {
+    /* background-color: #9d2424; */
+    width: 92vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 4vmax;
+    font-weight: 900;
+
+}
+
+
+.lan-btn {
+    display: flex;
+    width: 92vw;
+    margin-bottom: 3vw;
+
+}
+
+.lan-btn>button {
+    width: 12vmax;
+    height: 3vmax;
+    font-size: 1.5vmax;
+    text-align: center;
+    margin-right: 2vw;
+
+}
+
+.img {
+    width: 92vw;
+    height: 50vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 92vw;
+}
+
+.img-4 {
+    width: 23vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+
+}
+
+.img-4 img {
+    width: 23vw;
+    height: 15wh;
+
+}
+
+.para {
+    width: 50vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+    /* border: 2px solid red; */
+    font-size: 2vmax;
+
+
+}
+
+
+.lst-btn {
+    display: flex;
+    width: 50vw;
+
+}
+
+.lst-btn .btn {
+    font-size: 1.5vmax;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    width: 30vw;
+    margin-right: 2vw;
+
+
+}
+
+@media (max-width: 351px) {
+    .heading{
+        font-size: 8vw;
+    }
+    .lan-btn {
+        justify-content: space-between;
+    }
+
+    .para {
+        width: 92vw;
+        font-size: 2vmax;
+
+    }
+
+    .lst-btn {
+        width: 92vw;
+        font-size: 1.5vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* border: 2px solid red; */
+
+
+    }
+
+    .lst-btn .btn {
+position: relative;
+        width: 70vw;
+        margin-bottom: 3vw;
+        height: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        font-weight: 700;
+        /* text-indent: 4; */
+
+
+    }
+    i{
+        position: absolute;
+        right: 0;
+        margin-right: 1vw;
+    }
+   
+
+    
+}
